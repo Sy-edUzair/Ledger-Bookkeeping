@@ -7,11 +7,15 @@ This project aims to provide a lightweight and intuitive solution for personal o
 🧾 Features
 
 ✔ Enforces double-entry accounting principles
+
 ✔ Organizes financial records into balanced ledger entries
+
 ✔ Simple and extendable Python-based bookkeeping structure
+
 ✔ Easily customizable for different accounting workflows
 
-Double-entry bookkeeping is an accounting method where every transaction impacts at least two accounts, ensuring that the accounting equation (Assets = Liabilities + Equity) always remains balanced.
+Double-entry bookkeeping is an accounting method where every transaction impacts at least two accounts, ensuring that the accounting equation
+Assets = Liabilities + Equity always remains balanced.
 
 🚀 Getting Started
 🧰 Requirements
@@ -23,17 +27,12 @@ Install dependencies:
 pip install -r requirements.txt
 
 📦 Installation
-
-Clone this repository
-
+Clone the repository
 git clone https://github.com/Sy-edUzair/Ledger-Bookkeeping.git
 cd Ledger-Bookkeeping
 
-
 Install the required packages
-
 pip install -r requirements.txt
-
 
 Start using the bookkeeping system
 
@@ -43,13 +42,13 @@ Explore the code in the bookkeeping/ directory and build ledger entries based on
 
 This app enforces double-entry bookkeeping, meaning:
 
-Each financial transaction is entered as both a debit and a credit.
+Each financial transaction is entered as both a debit and a credit
 
-Debits and credits are balanced so that total debits = total credits.
+Debits and credits are balanced so that total debits = total credits
 
-The system helps ensure financial integrity and accurate books.
+The system helps ensure financial integrity and accurate books
 
-This makes it suitable for basic accounting workflows, budgeting and financial tracking.
+This makes it suitable for basic accounting workflows, budgeting, and financial tracking.
 
 🧩 Example Entry (Pseudo)
 
@@ -74,18 +73,28 @@ Contributions are welcome! Please follow this workflow:
 
 Fork the repository
 
-Create your feature branch (git checkout -b feature/my-feature)
+Create your feature branch
 
-Commit your changes (git commit -m 'Add new feature')
+git checkout -b feature/my-feature
 
-Push to the branch (git push origin feature/my-feature)
 
-Create a pull request
+Commit your changes
+
+git commit -m "Add new feature"
+
+
+Push to the branch
+
+git push origin feature/my-feature
+
+
+Create a Pull Request
 
 📄 License
 
-Distributed under the MIT License – feel free to use, modify, and distribute! (Adjust if your repo uses a different license)
+Distributed under the MIT License – feel free to use, modify, and distribute.
+(Adjust if your repository uses a different license)
 
 🔗 About Double-Entry Accounting
 
-Double-entry bookkeeping is the standard accounting method used to keep financial records accurate and consistent. Every transaction affects two or more accounts, and books are only considered balanced when total debits equal total credits
+Double-entry bookkeeping is the standard accounting method used to keep financial records accurate and consistent. Every transaction affects two or more accounts, and books are only considered balanced when total debits equal total credits.
