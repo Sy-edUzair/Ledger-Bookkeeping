@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-rn#=y77&#-e*ofd5&&1vp4m*&za$=(zz@k-e1_b9txt14(jk(h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["grippal-loyd-socially.ngrok-free.dev"]
+ALLOWED_HOSTS = ["grippal-loyd-socially.ngrok-free.dev", "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -50,6 +50,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 ROOT_URLCONF = "bookkeeping.urls"
@@ -123,3 +124,5 @@ DJANGO_LEDGER_USE_DEPRECATED_BEHAVIOR = False
 
 STATIC_URL = "static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
